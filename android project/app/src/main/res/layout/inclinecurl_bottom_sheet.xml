@@ -1,0 +1,56 @@
+<!-- activity_incline_dumbbell_curl.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageViewInclineDumbbellCurl"
+        android:layout_width="242dp"
+        android:layout_height="177dp"
+        android:background="@drawable/inclinecurl" />
+
+    <TextView
+        android:id="@+id/instructionsTextViewInclineDumbbellCurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="How to do Incline Dumbbell Curl:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Adjust the bench to a 45-degree incline."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Sit on the incline bench with your back against the pad, ensuring good posture."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Hold a dumbbell in each hand with palms facing forward and arms fully extended."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Curl the weights toward your shoulders, keeping your elbows close to your sides."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
+

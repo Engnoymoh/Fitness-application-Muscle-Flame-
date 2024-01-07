@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="242dp"
+        android:layout_height="177dp"
+        android:background="@drawable/row" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="How to do Single Arm Dumbbell Row:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Place a dumbbell on the floor next to a bench."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Place your left knee and left hand on the bench for support."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Pick up the dumbbell with your right hand, keeping your back straight."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Additional instructions -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Pull the dumbbell to your hip, squeezing your back muscles."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Lower the dumbbell back to the starting position with control."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

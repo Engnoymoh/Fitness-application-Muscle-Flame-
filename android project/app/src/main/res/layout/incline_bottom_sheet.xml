@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp"
+    android:background="@color/white">
+
+    <!-- ImageView for the Incline exercise -->
+    <ImageView
+        android:id="@+id/imageViewIncline"
+        android:layout_width="242dp"
+        android:layout_height="177dp"
+        android:background="@drawable/incline" />
+
+    <!-- Instructions for the Incline exercise -->
+    <TextView
+        android:id="@+id/instructionsTextViewIncline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="How to do Incline Exercise:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Start by adjusting the bench to a 30 degree incline."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Lie back on the incline bench with a dumbbell in each hand."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Press the dumbbells upward until your arms are fully extended."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Additional instructions -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Lower the dumbbells back to the starting position with control and ensure that your elbows are tucked in at a 45-degree angle."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+
+
+
+</LinearLayout>

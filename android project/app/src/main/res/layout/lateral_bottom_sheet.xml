@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="242dp"
+        android:layout_height="177dp"
+        android:background="@drawable/lateral" />
+
+    <TextView
+        android:id="@+id/instructionsTextViewLateralRaise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="How to do Lateral Raises:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Stand with your feet shoulder-width apart, holding a dumbbell in each hand by your sides."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Keep a slight bend in your elbows and lift the dumbbells out to the sides."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Lift until your arms are parallel to the ground, forming a 'T' shape."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Additional instructions -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Lower the dumbbells back down in a controlled manner to the starting position."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

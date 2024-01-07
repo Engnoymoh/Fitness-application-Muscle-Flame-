@@ -1,0 +1,54 @@
+<!-- activity_diamond_pushups.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="216dp"
+        android:layout_height="177dp"
+        android:background="@drawable/diamond" />
+
+    <TextView
+        android:id="@+id/instructionsTextViewDiamondPushups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="How to do Diamond Pushups:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Start in a plank position with your hands forming a diamond shape under your chest."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Lower your chest toward the diamond shape, keeping your elbows close to your body."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Push back up to the starting position."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Repeat for the recommended number of repetitions."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

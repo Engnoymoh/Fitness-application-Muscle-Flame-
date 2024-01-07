@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageViewLatPull"
+        android:layout_width="242dp"
+        android:layout_height="177dp"
+        android:background="@drawable/latpull" />
+
+    <TextView
+        android:id="@+id/instructionsTextViewLatPull"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="How to do Lat Pull-Down:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Sit down at a lat pulldown machine and adjust the knee pads."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Grab the bar with a wide grip, palms facing forward."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Pull the bar down to your chest, keeping your back straight."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Additional instructions -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Slowly return the bar to the starting position with control."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

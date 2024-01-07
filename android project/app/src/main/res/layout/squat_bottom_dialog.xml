@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/squatsImageView"
+        android:layout_width="242dp"
+        android:layout_height="181dp"
+        app:srcCompat="@drawable/squats" />
+
+    <!-- Instructions for Squats -->
+    <TextView
+        android:id="@+id/squatsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="How to do Squats:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Stand with your feet shoulder-width apart."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Lower your body by bending your knees and pushing your hips back as if sitting in a chair."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Keep your back straight, chest up, and knees aligned with your feet."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add more instructions as needed -->
+
+</LinearLayout>
+

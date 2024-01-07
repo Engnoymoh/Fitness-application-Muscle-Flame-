@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="242dp"
+        android:layout_height="181dp"
+        app:srcCompat="@drawable/jumping" />
+
+    <!-- Instructions for Jumping Jacks -->
+    <TextView
+        android:id="@+id/instructionsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="How to do Jumping Jacks:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Stand with your feet together and arms at your sides."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Jump your feet out to the sides while raising your arms above your head."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Jump back to the starting position."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add more instructions as needed -->
+
+</LinearLayout>

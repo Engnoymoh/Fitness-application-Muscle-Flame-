@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:paddingLeft="16dp"
+    android:soundEffectsEnabled="false"
+    android:textAlignment="center"
+    app:guidelineUseRtl="false"
+    app:layout_insetEdge="none"
+    tools:context=".activity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#5A5A5A"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:text="Nutritions for Adding Muscles"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <!-- Nutrition Information -->
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:layout_weight="0"
+        android:background="#9A8484"
+        android:backgroundTint="#FFFFFF">
+
+        <!-- Labels -->
+
+        <TextView
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="35dp"
+            android:text="Calories"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="83dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="35dp"
+            android:text="Protein"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="281dp"
+            android:layout_marginTop="35dp"
+            android:text="Carbs"
+            android:textAlignment="center"
+            android:textStyle="italic" />
+
+        <!-- First ImageView with CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="95dp"
+            android:layout_height="105dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-2dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/macros" />
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- Second ImageView with CardView -->
+
+        <!-- Nutrition Values -->
+
+        <TextView
+            android:id="@+id/cal"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="169dp"
+            android:layout_marginBottom="111dp"
+            android:textAlignment="center"
+            android:textFontWeight="1" />
+
+        <TextView
+            android:id="@+id/protein"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="210dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="83dp"
+            android:layout_marginBottom="111dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/carb"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="295dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="111dp"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:background="#8A8181" />
+
+    <!-- Discover Workouts -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="187dp"
+            android:layout_height="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="0dp"
+            android:text="Discover Workouts"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="190dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+
+                <ImageView
+                    android:id="@+id/cardio"
+                    android:layout_width="220dp"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cardio" />
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Second ImageView with CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp">
+
+                <ImageView
+                    android:id="@+id/lifts"
+                    android:layout_width="220dp"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/weight" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="15dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="11dp"
+        android:background="#8A8181"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_weight="1"
+            android:text="Start challenges:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/challengesCard"
+            android:layout_width="341dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#554E4E"
+            android:backgroundTint="#B0BA95"
+            android:clickable="true"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/challenge" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/chal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Challenges"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="99dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="112dp"
+        android:backgroundTint="#5A5A5A"
+        android:onClick="Buclick"
+        android:text="Back"
+        android:textColor="#FFFFFF" />
+
+
+
+
+
+</LinearLayout>

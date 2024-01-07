@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:gravity="center_horizontal"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="100dp"
+    android:background="@color/white">
+
+    <!-- ImageView for the Plank exercise -->
+    <ImageView
+        android:id="@+id/imageViewPlank"
+        android:layout_width="242dp"
+        android:layout_height="177dp"
+        android:background="@drawable/plank" />
+
+    <!-- Instructions for the Plank exercise -->
+    <TextView
+        android:id="@+id/instructionsTextViewPlank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="How to do Plank:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Start in a push-up position with your arms straight."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Lower your forearms to the ground, forming a straight line from head to heels."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Hold the position for the recommended time."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add more instructions as needed -->
+
+</LinearLayout>
